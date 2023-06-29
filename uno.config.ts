@@ -4,6 +4,7 @@ import {
 	presetIcons,
 	presetTypography,
 	presetUno,
+	presetWind
 } from 'unocss'
 
 import presetAutoprefixer from 'unocss-preset-autoprefixer'
@@ -17,7 +18,7 @@ export default defineConfig({
 		presetIcons({
 			autoInstall: true,
 		}),
-		presetUno(),
+		presetWind(),
 		presetTypography(),
 		presetAutoprefixer(['defaults', 'not IE 11']),
 	],
